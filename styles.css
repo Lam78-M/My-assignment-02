@@ -69,6 +69,120 @@
 /* section first section*/
 .first-section{
     max-width: 1600px;
-    height: 720;
+    height: 720px;
+    margin:40px auto;
     border: 1px solid blanchedalmond;
+}
+.big-image{
+    position: relative;
+    background-image: url(./assets/hero-bg.png);
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+}
+.hero-circle{
+    position: absolute;
+   
+    margin-left:39%;
+     margin-top: 5%;
+   
+}
+.micro-image{
+    position: absolute;
+    left:46.3%;
+    top: 23%;
+    text-align: center;
+}
+.bottom-part{
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 480px; 
+}
+.wave-tech{
+    color:white;
+    font-weight: bolder;
+    font-size: 3.10rem;
+}
+.description{
+    color:white;
+    font-size: 1rem;
+    font-weight:200px;
+    margin-top:10px;
+}
+.btn2{
+    margin-top: 20px;
+     height:44px ;
+     width: 200px;
+     border-radius: 30px;
+     border:none
+     
+}
+.btn3{
+    margin-top: 20px;
+    color:#00FF88;
+     height:44px ;
+     width: 147px;
+     border-radius: 30px;
+    
+     background-color: transparent;
+     border-color: #00FF88;
+     
+}
+/*main second section*/
+.second-section{
+    max-width: 1600px;
+    margin:80px auto;
+    height: 650px;
+    text-align: center;
+}
+.about-this{
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.description-1{
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight:400px ;
+    margin-top:15px;
+    line-height: 30px;
+}
+.description-2{
+    color:white;
+    font-size: 14px;
+    font-weight:400px;
+    margin-top:40px;
+}
+.star{
+    width:25px;
+    color:white;
+}
+.about-section{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+.same{
+    color:#00FF88;
+    font-size:3rem ;
+    font-weight: bold;
+}
+.month-class{
+    margin-top:20px;
+    color:white;
+    font-size: 1rem;
+    font-weight:400px;
+}
+.for-hr{
+    margin: 80px auto;
+    width: 1200px;
+    opacity: 0.1;
+   
+  
+
+
+
 }
