@@ -55,7 +55,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: normal;
     gap:5px;
     background: linear-gradient(90deg, #ff00ff, #ff9900);
     width:150px;
@@ -264,3 +264,13 @@
      background-color: red;
 }
 
+/*footer style*/
+.heavy-footer{
+    border: 1px solid red;
+    max-width:1600px ;
+    background-repeat: no-repeat;
+    height: 420px;
+    margin:0 auto;
+    background-image: url(./assets/footer-bg.png);
+    background-position: cover;
+}
