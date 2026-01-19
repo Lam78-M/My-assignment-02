@@ -42,18 +42,22 @@
     font-weight: bold;
 }
 .wave{
-    color:gold;
+    background: linear-gradient(90deg, #ff00ff, #ff9900);
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
     font-size: 2rem;
     font-weight: bold;
 
 }
 .btn{
-    font-size: 1rem;
-
+    display: flex;
+    justify-content: center;
     align-items: center;
-
+    font-size: 1rem;
+    font-weight: bold;
     gap:5px;
-    background-color: rgb(98, 98, 68);
+    background: linear-gradient(90deg, #ff00ff, #ff9900);
     width:150px;
     height:40px;
     border-radius:45px ;
@@ -62,7 +66,7 @@
     color:white;
 }
 .img{
-  width:15px;
+  width:20px;
 }
   
 
@@ -106,35 +110,60 @@
     font-size: 3.10rem;
 }
 .description{
-    color:white;
-    font-size: 1rem;
-    font-weight:200px;
-    margin-top:10px;
+     color:white;
+     font-size: 1rem;
+     font-weight:200px;
+     margin-top:10px;
+}
+.btn-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
 }
 .btn2{
-    margin-top: 20px;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(90deg, #ff00ff, #ff9900);
+     margin-top: 20px;
      height:44px ;
      width: 200px;
      border-radius: 30px;
-     border:none
-     
+     border:none;
+     text-align: center;
+     gap:10px;
 }
+.listen{
+    font-size: 1rem;
+    color:white;
+    font-weight: bold;
+}
+
 .btn3{
-    margin-top: 20px;
-    color:#00FF88;
+  
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+     color:#00FF88;
      height:44px ;
      width: 147px;
      border-radius: 30px;
-    
      background-color: transparent;
      border-color: #00FF88;
+     font-size: 1rem;
+     gap:10px;
+     font-weight: bold;
      
 }
 /*main second section*/
 .second-section{
     max-width: 1600px;
     margin:80px auto;
-    height: 650px;
+    height: 600px;
     text-align: center;
 }
 .about-this{
@@ -180,9 +209,58 @@
     margin: 80px auto;
     width: 1200px;
     opacity: 0.1;
-   
-  
-
-
-
 }
+/*section part third*/
+.third-section{
+    border: 1px solid green;
+    max-width: 1600px;
+    height: 1130px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #230E3D;
+}
+.why-not{
+    color:white;
+    margin-top: 80px;
+}
+.grid-rules{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 790px;
+    width: 1200px;
+    gap: 20px;
+   margin:40px auto;
+   border-radius: 20px;
+
+    
+    
+}
+.box-1{
+         background-color: red;
+}
+.box-2{
+     background-color: red;
+} 
+.box-3{
+     background-color: red;
+}
+.box-4{
+     background-color: red;
+}
+.box-5{
+     background-color: red;
+}
+.box-6{
+     background-color: red;
+}
+.box-7{
+     background-color: red;
+} 
+.box-8{
+     background-color: red;
+}
+.box-9{
+     background-color: red;
+}
+
