@@ -586,7 +586,8 @@
 }
 
 /* media quary*/
-@media screen and (max-width:576px){
+ @media screen and (max-width:576px)
+ {
     body {
     overflow-x: hidden;
   }
@@ -595,7 +596,7 @@
   header,
   footer,
   main {
-    width: 100%
+    width: 100%;
     padding: 0 15px;
   }
 
@@ -613,12 +614,10 @@
   }
 
   .header {
-    width: 80%;
     height: auto;
   }
 
   .tech {
-    margin-left: 10px;
     font-size: 1.5rem;
   }
 
@@ -638,8 +637,8 @@
   }
 
   .micro-image {
-    width: 70px;
-    top: 22%;
+    width: 75px;
+    top: 20%;
   }
 
   .new-btn {
@@ -741,7 +740,6 @@
 
   .challenge {
     flex-direction: column;
-    
     width: 95%;
     height: auto;
     padding: 20px;
@@ -767,18 +765,17 @@
   }
 
   .flex-display {
-   
     gap: 20px;
-    flex-direction: row;
   }
+ } 
 
-}
 
 
 
 
 @media screen and (min-width:992px){
- /* Header adjustments */
+ 
+  /* Header adjust*/
   .header-section {
     flex-direction: row;
     height: 94px;
@@ -865,9 +862,9 @@
 
   /* Third section (grid) */
   .grid-rules {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
     width: 1200px;
     height: 790px;
     margin: 40px auto;
@@ -969,4 +966,3 @@
     font-size: 1rem;
   }
 }
-
