@@ -551,7 +551,8 @@
     font-size: 3rem;
     color:white;
     text-align: center;
-    padding: 60px;
+    padding-top: 140px ;
+    
 }
 .flex-again{
     margin-top:0px;
@@ -618,7 +619,7 @@
   }
 
   .tech {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   /* ===== HERO / BANNER ===== */
@@ -757,6 +758,7 @@
   }
 
   /* footer */
+
   .heavy-footer {
     height: auto;
     padding-bottom: 40px;
