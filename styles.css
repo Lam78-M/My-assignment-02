@@ -224,14 +224,14 @@
 .description-1{
     color:#FFFFFF;
     font-size: 1rem;
-    font-weight:400px ;
+    font-weight:100px ;
     margin-top:15px;
     line-height: 30px;
 }
 .description-2{
     color:white;
     font-size: 14px;
-    font-weight:400px;
+    font-weight:100px;
     margin-top:40px;
 }
 
@@ -619,7 +619,7 @@
   }
 
   .tech {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   /* ===== HERO / BANNER ===== */
